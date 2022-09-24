@@ -124,7 +124,7 @@ func deleteAccount(c *gin.Context) {
 
 // creates the instance of the database
 // I wasn't sure how so I did it this way
-// I was struggle with the best way to do this
+// I always struggle with the best way to do this
 func Connection() *mongo.Client {
 	err := godotenv.Load()
 
